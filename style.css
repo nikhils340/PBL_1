@@ -43,14 +43,18 @@ body{
     box-shadow: 0px 5px 10px 0px #aaa;
     position: fixed;
     width: 100%;
-    background: #fff;
+    background: #ccaeae;
     color: #000;
     opacity: 0.85;
     z-index: 99;
 }
+.navbar h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
 .navbar-container{
     display: flex;
-    height: 64px;
+    height: 35px;
     justify-content: space-around;
     align-items: center;
 }
@@ -157,7 +161,7 @@ body{
 #Template h2{
     text-align: center;
     font-weight: 400;
-    color: #555;
+    color: #9e9a9a;
     font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -214,7 +218,7 @@ body{
     width: 100%;
     top: 0%;
     left:0%;
-    background-color: rgba(0,0,0,0.871);
+    background-color: rgba(177, 169, 173, 0.871);
     z-index: 1;
     opacity: 0;
     transform: scaleY(0);
@@ -333,7 +337,7 @@ body{
     background-color: #fff;
 }
 .contact-container{
-   width: 50%;
+   width: 60%;
 }
 .contact-img img{
     display: block;
@@ -393,7 +397,7 @@ body{
     .navbar-container{
         display: block;
         position: relative;
-        height: 64px;
+        height: 45px;
     }
     .navbar-container input[type='checkbox']{
         position: absolute;
